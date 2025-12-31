@@ -25,3 +25,19 @@ graph TD
     E --> F[Upload to Hugging Face Hub]
     F --> G[Flask Web Application]
     G --> H[Emotion Prediction]
+```
+
+## 🗂️ Project Structure
+```cpp
+fine-tuning-distilbert-emotion-classification/
+│
+├── fine_tune_distilbert_emotions_dataset.ipynb
+├── app.py
+├── requirements.txt
+├── templates/
+│   └── index.html
+├── static/
+│   └── css/
+│       └── style.css
+└── README.md
+```
