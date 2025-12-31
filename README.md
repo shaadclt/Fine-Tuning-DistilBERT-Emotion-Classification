@@ -33,6 +33,7 @@ fine-tuning-distilbert-emotion-classification/
 │
 ├── fine_tune_distilbert_emotions_dataset.ipynb
 ├── app.py
+├── Procfile
 ├── requirements.txt
 ├── templates/
 │   └── index.html
