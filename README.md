@@ -41,3 +41,44 @@ fine-tuning-distilbert-emotion-classification/
 │       └── style.css
 └── README.md
 ```
+
+## ⚙️ Setup and Execution
+
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/shaadclt/fine-tune-distilbert-emotion-classification.git
+cd fine-tune-distilbert-emotion-classification
+pip install -r requirements.txt
+```
+
+Run the application:
+```bash
+python app.py
+```
+
+Access the app at:
+```cpp
+http://127.0.0.1:5000
+```
+
+## ☁️ Model Hosting
+
+The trained model is hosted on Hugging Face Hub and automatically downloaded during runtime. This keeps the repository lightweight while enabling seamless deployment to cloud platforms such as Render, Railway, or AWS.
+
+## 🧪 Technologies Used
+
+Python · Hugging Face Transformers · PyTorch · Flask · HTML · CSS · Google Colab
+
+## 🎯 Key Outcomes
+
+This project demonstrates end-to-end expertise in fine-tuning transformer models, deploying production-grade NLP systems, and building scalable machine learning pipelines suitable for real-world applications.
+
+## 📌 Keywords for ATS Optimization
+
+`Machine Learning`, `Natural Language Processing`, `NLP`, `Transformers`, `DistilBERT`, `Fine-Tuning`, `Emotion Classification`, `Deep Learning`, `PyTorch`, `Flask`, `Model Deployment`, `AI Engineering`
+
+👨‍💻 Author
+
+**Mohamed Shaad**
+Machine Learning Engineer | NLP & Generative AI
+LinkedIn: https://linkedin.com/in/mshaadk
