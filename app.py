@@ -1,11 +1,12 @@
 from flask import Flask, request, jsonify, render_template
 from transformers import pipeline
+import os
 
 app = Flask(__name__)
 
 # Load model directly from Hugging Face Hub
 classifier = pipeline(
-    "emotion-classification",
+    "text-classification",
     model="shaadclt/distilbert-emotion-classifier"
 )
 
@@ -23,4 +24,5 @@ def predict():
     })
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
