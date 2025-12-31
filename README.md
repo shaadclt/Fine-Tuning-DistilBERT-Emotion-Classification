@@ -80,6 +80,7 @@ This project demonstrates end-to-end expertise in fine-tuning transformer models
 ## 👨‍💻 Author
 
 **Mohamed Shaad**
+
 Machine Learning Engineer | NLP & Generative AI
 
 LinkedIn: https://linkedin.com/in/mshaadk
